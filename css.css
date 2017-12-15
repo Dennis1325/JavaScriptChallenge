@@ -1,0 +1,51 @@
+body{
+    background-image: url("Img/sterren.jpg");
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+
+}
+canvas#snow{
+    background-image: url("Img/AchtergrondBomen.png");
+    background-repeat: no-repeat;
+}
+img{
+    float: left;
+    position: fixed;
+}
+a {
+    color: #2fa1d6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+#canvas-container {
+    height: 400px;
+    left: 50%;
+    margin: -200px 0 0 -300px;
+    position: absolute;
+    top: 50%;
+    width: 600px;
+    z-index: 2;
+}
+
+canvas {
+    display: block;
+    position: relative;
+    z-index: 3;
+}
+
+canvas:active {
+    cursor: crosshair;
+}
+#gui {
+    right: 0;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
